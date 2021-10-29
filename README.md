@@ -5,7 +5,7 @@ React 연습 과제를 위해 Vanilla 로 먼저 계산기를 제작하고 그 �
 ### ECMAScript 6 (Vanilla JS)
 
 1. 위치
-    * /general_calculator_vanilla
+    * /public/general_calculator_vanilla
 
 2. 실행
     * calculator_babel.html : 계산기, file protocol 미지원, http protocol 로 접속 해야함. (모든 브라우저 지원)
@@ -25,10 +25,13 @@ React 연습 과제를 위해 Vanilla 로 먼저 계산기를 제작하고 그 �
 1. 기반
     * [Create React App] 사용 (https://github.com/facebook/create-react-app).
 
-2. 실행
+2. 설치
+    * `npm i`
+
+3. 실행
     * `npm start`
 
-3. 설명
+4. 설명
     * App.js : 전역 상태 관리, 액션 라우팅
     * Components/CalcTemplate.js : 템플릿 컴포넌트
     * Components/CalcMsgPanel.js : 계산기 상단 메세지(연산 상태) 패널
