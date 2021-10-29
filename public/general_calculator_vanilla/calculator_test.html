@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calulator ECMAScript 6 (Vanilla JS) Unit Test - Jasmine</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<link rel="shortcut icon" type="image/png" href="js/lib/jasmine-3.4.0/jasmine_favicon.png">
+		<link rel="stylesheet" href="js/lib/jasmine-3.4.0/jasmine.css">
+		<link rel="stylesheet" href="css/calc.css">
+		<script src="js/lib/jasmine-3.4.0/jasmine.js"></script>
+		<script src="js/lib/jasmine-3.4.0/jasmine-html.js"></script>
+		<script src="js/lib/jasmine-3.4.0/boot.js"></script>
+
+		<script src="js/calc/calculator.js"></script>
+
+		<script src="js/test/calcTest.js"></script>
+		
+	</head>
+	<body>
+		<div class="calc_wrap">
+			<table cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td colspan="4" class="panel_msg"><span><br/></span></td>
+					</tr>
+					<tr>
+						<td colspan="4" class="panel_input"><span></span></td>
+					</tr>
+					<tr>
+						<td class="calc_cmd"><span name="Escape">AC</span></td>
+						<td class="calc_cmd"><span name="Backspace">←</span></td>
+						<td class="calc_cmd"><span name="%">%</span></td>
+						<td class="calc_operator"><span name="/">÷</span></td>
+					</tr>
+					<tr>
+						<td class="calc_num"><span name="7">7</span></td>
+						<td class="calc_num"><span name="8">8</span></td>
+						<td class="calc_num"><span name="9">9</span></td>
+						<td class="calc_operator"><span name="*">×</span></td>
+					</tr>
+					<tr>
+						<td class="calc_num"><span name="4">4</span></td>
+						<td class="calc_num"><span name="5">5</span></td>
+						<td class="calc_num"><span name="6">6</span></td>
+						<td class="calc_operator"><span name="-">─</span></td>
+					</tr>
+					<tr>
+						<td class="calc_num"><span name="1">1</span></td>
+						<td class="calc_num"><span name="2">2</span></td>
+						<td class="calc_num"><span name="3">3</span></td>
+						<td class="calc_operator"><span name="+">+</span></td>
+					</tr>
+					<tr>
+						<td class="calc_num"><span name="PlusMinus">±</span></td>
+						<td class="calc_num"><span name="0">0</span></td>
+						<td class="calc_num"><span name=".">·</span></td>
+						<td class="calc_operator"><span name="=">=</span></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>
