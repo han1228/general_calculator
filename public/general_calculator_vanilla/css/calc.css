@@ -16,3 +16,4 @@ td[class*="calc_"] span { min-width: 52px; min-height: 52px; font-size:2em; padd
 .calc_operator span:active, .calc_operator span.on { background-color: #CA7A11; }
 .calc_num { background-color: #818283; cursor:pointer }
 .calc_num span:active, .calc_num span.on { background-color: #BEBFBF; }
+.sub_title { font-size: 10px; text-align: right; padding-bottom: 4px; }

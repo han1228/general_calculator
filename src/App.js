@@ -102,6 +102,7 @@ class App extends Component {
 
 		return (
 			<div className="calc_wrap" style={wrapInlineStyle} ref={ref => {this.eleCalcWrap = ref}}>
+				<div className="sub_title">General Calculator - React</div>
 				<CalcTemplate>
 					<CalcMsgPanel curFormula={curFormula} />
 					<CalcInputPanel curNumber={curNumber} />
